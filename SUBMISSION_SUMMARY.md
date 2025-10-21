@@ -790,22 +790,6 @@ kubectl create deployment test --image=nginx
 
 
 
-\## 📞 Contact \& Support
-
-
-
-For questions or clarifications about this submission:
-
-
-
-\*\*Name:\*\* \[Your Name]  
-
-\*\*Email:\*\* \[Your Email]  
-
-\*\*GitHub:\*\* \[@YOUR\_USERNAME](https://github.com/YOUR\_USERNAME)
-
-
-
 ---
 
 
