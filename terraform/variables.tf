@@ -51,7 +51,7 @@ variable "cluster_name" {
 variable "cluster_version" {
   description = "Kubernetes version for EKS cluster"
   type        = string
-  default     = "1.28"
+  default     = "1.29"
 }
 
 variable "node_instance_type" {
@@ -90,8 +90,8 @@ variable "common_tags" {
   description = "Common tags to apply to all resources"
   type        = map(string)
   default = {
-    Project     = "InnovateMart-Bedrock"
-    ManagedBy   = "Terraform"
-    Owner       = "CloudDevOps"
+    Project   = "InnovateMart-Bedrock"
+    ManagedBy = "Terraform"
+    Owner     = "CloudDevOps"
   }
 }

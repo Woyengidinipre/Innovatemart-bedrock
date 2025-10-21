@@ -1,0 +1,18 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: aws-auth
+  namespace: kube-system
+data:
+  mapRoles: |
+    - rolearn: arn:aws:iam::861276118104:role/innovatemart-prod-eks-node-role
+      username: system:node:{{EC2PrivateDNSName}}
+      groups:
+        - system:bootstrappers
+        - system:nodes
+    - rolearn: arn:aws:iam::861276118104:role/innovatemart-prod-eks-developer-role
+      username: innovatemart-developer
+      groups:
+        - readonly-group
+  mapUsers: |
+    []
