@@ -32,6 +32,27 @@ innovatemart-bedrock/
 - Git
 
 ## Quick Start
+## 🎉 Current Deployment Status
+
+**Status:** ✅ DEPLOYED & RUNNING
+
+**Application URL:** http://affdf3446d42c4279909643ba8a2c52e-1350286023.us-east-1.elb.amazonaws.com
+
+**Deployment Date:** October 21, 2025  
+**Environment:** Production  
+**Region:** us-east-1  
+**Cluster:** innovatemart-prod-eks  
+
+### Quick Access
+- **Application:** [Open Retail Store](http://affdf3446d42c4279909643ba8a2c52e-1350286023.us-east-1.elb.amazonaws.com)
+- **Topology View:** [/topology](http://affdf3446d42c4279909643ba8a2c52e-1350286023.us-east-1.elb.amazonaws.com/topology)
+- **Infrastructure Info:** [/info](http://affdf3446d42c4279909643ba8a2c52e-1350286023.us-east-1.elb.amazonaws.com/info)
+
+### Infrastructure Details
+- **3 EKS Nodes:** t3.medium across 3 availability zones
+- **VPC CIDR:** 10.0.0.0/16
+- **Microservices:** UI, Catalog, Carts, Orders, Checkout, Assets
+- **CI/CD:** GitHub Actions automated pipeline
 
 ### 1. Clone the Repository
 ```bash
