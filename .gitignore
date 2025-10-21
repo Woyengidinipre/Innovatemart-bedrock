@@ -1,0 +1,60 @@
+# Terraform files
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraformrc
+terraform.rc
+
+# Terraform plan files
+*.tfplan
+
+# Sensitive files
+*.pem
+*.key
+*.pub
+secrets/
+*.secret
+
+# AWS credentials
+.aws/
+credentials
+
+# Kubernetes
+kubeconfig
+*.kubeconfig
+*kubeconfig*.yaml
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+.env.local
+*.env
+
+# Logs
+*.log
+
+# Backup files
+*.backup
+*.bak
+
+# Helm
+charts/*/charts
+charts/*/Chart.lock
+
