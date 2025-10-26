@@ -120,7 +120,7 @@ This project uses GitHub Actions for automated infrastructure deployment:
 - [Deployment Guide](docs/deployment.md)
 
 ## Team
-- **Cloud DevOps Engineer**: [Your Name]
+- **Cloud DevOps Engineer**: Ikpaikpai Woyengidinipre Favour-Odonkumo 
 - **Company**: InnovateMart Inc.
 - **Project**: Bedrock
 
